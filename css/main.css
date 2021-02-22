@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 241, 241);
+}
+
+.gridelement { 
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.gridcontainer {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 65px;
+    font-family: 'Reggae One', cursive;
+}
+
+.controls {
+    position: relative;
+    bottom: 35px;
+}
+
+.colors {
+    position: relative; 
+    top: 35px;
+}
+
+input[type="button"] {
+    border: none;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    
+}
